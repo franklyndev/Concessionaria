@@ -8,9 +8,10 @@ namespace DAO
 {
     public class Usuario
     {
-        public int id;
-        public string name;
-        public string senha;
+        public int id { get; set; }
+        public string email { get; set; }
+        public string name { get; set; }
+        public string senha { get; set; }
     }
 
 
